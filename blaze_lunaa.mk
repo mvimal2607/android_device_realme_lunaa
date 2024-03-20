@@ -12,9 +12,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/lunaa/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_lunaa
+# Boot Animation Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# blaze Maintainer Stuff
+BLAZE_BUILD_TYPE := OFFICIAL
+BLAZE_MAINTAINER := Vimal
+TARGET_UDFPS_ANIMATIONS := true
+WITH_GAPPS := true
+
+PRODUCT_NAME := blaze_lunaa
 PRODUCT_DEVICE := lunaa
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
