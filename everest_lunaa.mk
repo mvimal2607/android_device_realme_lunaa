@@ -12,9 +12,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/lunaa/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/everest/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_lunaa
+# Boot Animation Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Everest Maintainer Stuff
+EVEREST_BUILD_TYPE := OFFICIAL
+EVEREST_MAINTAINER := Vimal
+
+# UDFPS FLAGS
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+
+# Pixel laucher blur
+TARGET_USES_BLUR_RECENT := false
+
+PRODUCT_NAME := everest_lunaa
 PRODUCT_DEVICE := lunaa
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
