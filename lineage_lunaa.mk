@@ -16,8 +16,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_lunaa
 PRODUCT_DEVICE := lunaa
-PRODUCT_MANUFACTURER := OnePlus
-PRODUCT_BRAND := OnePlus
+PRODUCT_MANUFACTURER := Realme
+PRODUCT_BRAND := Realme
 PRODUCT_MODEL := RMX3360
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
