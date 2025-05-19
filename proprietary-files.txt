@@ -51,6 +51,10 @@ odm/lib/rfsa/adsp/libvdblurless_4.6.10P_skel.so
 odm/lib/rfsa/adsp/libvdblurless_skel.so
 odm/lib/rfsa/adsp/libvdsuperphoto_skel.so
 
+# APN
+product/etc/apns-conf.xml
+product/etc/apns-version.xml
+
 # Audio
 odm/lib/liblvimfs.so
 odm/lib/liblvimfs_wrapper.so
