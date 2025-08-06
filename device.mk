@@ -60,7 +60,8 @@ PRODUCT_PACKAGES += \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget \
-    OPlusWifiResTarget
+    OPlusWifiResTarget \
+    YAAPSettingsOverlay
 
 # Sensors
 PRODUCT_PACKAGES += \
