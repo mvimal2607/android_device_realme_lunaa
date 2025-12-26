@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lunaa.mk
+    $(LOCAL_DIR)/yaap_lunaa.mk
