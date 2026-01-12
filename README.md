@@ -1,6 +1,6 @@
 # Device Tree for the Realme GT Master (Edition) 5G
 
-The realme GT ME 5G, (codenamed RMX3360/RMX3363) is a mid-range smartphone from realme.  
+The realme GT ME 5G, (codenamed RMX3360/RMX3361/RMX3363) is a mid-range smartphone from realme.  
 It was announced and released in July 2021.  
 
 > 'RMX3363' is Realme GT Master (EU/EEA/GDPR).  
